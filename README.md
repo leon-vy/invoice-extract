@@ -257,6 +257,54 @@ The system is designed for rapid extensibility. Adding a new advertising platfor
 
 ---
 
+## 🗺️ Roadmap & Future Enhancements
+
+This project is designed with scalability and enterprise adoption in mind. The next phase focuses on production-grade orchestration and data transformation:
+
+### Phase 2: Enterprise Orchestration (In Progress)
+
+#### 🔄 Apache Airflow Integration
+**Objective**: Transform from script-based execution to enterprise workflow orchestration
+
+- **DAG-Based Scheduling**: Automated daily/weekly extraction workflows
+- **Dependency Management**: Intelligent task ordering and retry logic
+- **Monitoring & Alerting**: Real-time pipeline health monitoring
+- **SLA Management**: Automated alerts for processing delays
+- **Backfill Capabilities**: Historical data reprocessing on-demand
+
+**Business Value**:
+- ✅ Zero-touch operation with automatic failure recovery
+- ✅ Complete observability into data pipeline health
+- ✅ Scalable to hundreds of concurrent workflows
+
+#### 🔧 DBT (Data Build Tool) Integration
+**Objective**: Implement SQL-based transformations and data quality testing
+
+- **Modular Transformations**: Version-controlled SQL models
+- **Data Quality Tests**: Automated validation of business rules
+- **Documentation**: Auto-generated data lineage and catalog
+- **Incremental Models**: Efficient processing of large datasets
+- **Staging → Analytics**: Multi-layer data warehouse architecture
+
+**Business Value**:
+- ✅ Self-documenting data transformations
+- ✅ Automated data quality monitoring
+- ✅ Faster analytics development cycles
+
+#### 🐳 Containerization & Deployment
+- **Docker**: Containerized application for consistent environments
+- **Docker Compose**: Local development orchestration
+- **Cloud Run/Kubernetes**: Production deployment options
+- **CI/CD Pipeline**: Automated testing and deployment
+
+### Phase 3: Advanced Analytics (Planned)
+- **Anomaly Detection**: ML-based spend anomaly identification
+- **Predictive Analytics**: Forecast advertising spend trends
+- **Cost Optimization**: Automated recommendations for budget allocation
+- **Custom Dashboards**: Real-time executive reporting
+
+---
+
 ## 🎓 Skills Demonstrated
 
 This project showcases advanced software engineering capabilities:
@@ -269,6 +317,8 @@ This project showcases advanced software engineering capabilities:
 - ✅ **Python Best Practices**: Type hints, Pydantic, modern packaging
 - ✅ **DevOps**: Environment management, deployment automation
 - ✅ **Problem Solving**: Complex business logic automation
+- 🔜 **Workflow Orchestration**: Apache Airflow (Phase 2)
+- 🔜 **Data Transformation**: DBT modeling and testing (Phase 2)
 
 ---
 
