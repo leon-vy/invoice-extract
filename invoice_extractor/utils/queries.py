@@ -1,0 +1,40 @@
+fact_pads_DV360="""
+SELECT
+  *
+FROM
+  `facturation-332409.Validation_facture.DV360_google_by_pads_`
+WHERE
+  month=@month
+"""
+fact_pads_adsp="""
+SELECT
+  *
+FROM
+  `facturation-332409.Validation_facture.ADSP_Amazon_by_pads_`
+WHERE
+  month = @month
+"""
+fact_pads_cm="""
+SELECT
+  *
+FROM
+  `facturation-332409.Validation_facture.CM360_google_pads_`
+WHERE
+  month = @month
+"""
+fact_pads_sa="""
+SELECT
+  *
+FROM
+  `facturation-332409.Validation_facture.SA_google_by_pads`
+WHERE
+  month=@month
+"""
+fact_pads_xandr="""
+SELECT
+  *
+FROM
+  `facturation-332409.Validation_facture.XANDR_by_pads`
+WHERE
+  month=@month
+"""
